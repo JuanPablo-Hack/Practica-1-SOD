@@ -25,7 +25,7 @@ main ()
 	Socket_Servidor = Abre_Socket_Inet ("cpp_java");
 	if (Socket_Servidor == -1)
 	{
-		printf ("No se puede abrir socket servidor\n");
+		printf ("Mensaje enviado a cliente: Hola\n");
 		exit (-1);
 	}
 
